@@ -1,0 +1,1323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tag Heuer</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./img/menu-logo.svg" type="favicon">
+  <!-- font -->
+  <!-- font-family: "Noto Sans", sans-serif; -->
+  <!-- font-family: "Chakra Petch", sans-serif; -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <!-- slick -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
+
+  <!-- maison title font animation -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+  <div class="ball"></div> <!-- cursor -->
+  
+  <header id="header" class="header">
+    <div class="menu-box">
+      <p>SINCE 1860</p>
+      <div class="logo"><img src="./img/menu-logo.svg" alt="logo" /></div>
+    </div>
+    <div class="open-menu-box">
+      <p class="close"><i class="fas fa-times"></i></p>
+      <div class="logo-box">
+        <p>SINCE 1860</p>
+        <div class="logo"><img src="./img/menu-logo.svg" alt="logo" /></div>
+        <p class="tel"><a href="#">+82-2-318-7784</a></p>
+      </div>
+      <div class="nav">
+        <h2>Maison</h2>
+        <ul>
+          <li><a href="#">Technology</a></li>
+          <li><a href="#">History</a></li>
+          <li><a href="#">Ambassadors</a></li>
+          <li><a href="#">Collaborations</a></li>
+        </ul>
+        <h2>Watches</h2>
+        <ul>
+          <li><a href="#">Autavia</a></li>
+          <li><a href="#">Fomula</a></li>
+          <li><a href="#">Aquaracer</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Monaco</a></li>
+          <li><a href="#">Carrera</a></li>
+        </ul>
+        <h2>Store</h2>
+      </div>
+    </div>
+    <div class="gnb">
+      <ul>
+        <li>
+          <a href="#"><i class="fas fa-search icon"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-user icon"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fas fa-shopping-bag icon"></i></a>
+        </li>
+      </ul>
+    </div>
+  </header> <!-- 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 header -->
+
+  <!-- preload -->
+  <div class="progress" id="progress">
+    <span class="progress-bar"></span>
+    <span class="progress-text">0%</span>
+    <span class="progress-text" style="top: 40%;">Please Slow Scroll</span>
+  </div> 
+  <!-- preload -->
+
+  <main>
+    <section class="main">
+      <div class="main-container">
+        <div class="main-img-container">
+          <div class="main-img-container-left">
+            <p class="main-img-desc">Tag Heuer Ambassadors Ha-Jun<br>Drag Image or Mouseover Iamge</p>
+            <div class="left-img-box-wrap">
+              <div class="left-img-box">
+                <span class="main-text left">TAG</span>
+                <!-- slider -->
+                <div id="rgbKineticSlider" class="rgbKineticSlider"></div>
+                <!-- slider nav -->
+                <nav>
+                  <a href="#" class="main-nav next" data-nav="next"><span></span></a>
+                </nav>
+              </div>
+            </div>
+            <div class="title-typing-text">
+              <div class="decode-text">
+                <div class="text-animation">T</div>
+                <div class="text-animation">A</div>
+                <div class="text-animation">G</div>
+                <div class="text-animation"></div>
+                <div class="text-animation">H</div>
+                <div class="text-animation">E</div>
+                <div class="text-animation">U</div>
+                <div class="text-animation">E</div>
+                <div class="text-animation">R</div>
+                <div class="text-animation">.</div>
+                <div class="space"></div>
+                <div class="text-animation">S</div>
+                <div class="text-animation">I</div>
+                <div class="text-animation">N</div>
+                <div class="text-animation">C</div>
+                <div class="text-animation">E</div>
+                <div class="space"></div>
+                <div class="text-animation">1</div>
+                <div class="text-animation">8</div>
+                <div class="text-animation">6</div>
+                <div class="text-animation">0</div>
+              </div>
+            </div>
+          </div>
+          <div class="main-img-container-right">
+            <div class="main-clock">
+              <div class="time_box">
+                <span class="txt_lg" id="hours">00</span>
+                <span class="mark">:</span>
+                <span class="txt_lg" id="min">00</span>
+                <span class="mark02">.</span>
+                <span class="txt_sm" id="sec">00</span>
+              </div>
+              <div class="date_box">
+                <span id="month">00</span>
+                <span class="point">.</span>
+                <span id="date">00</span>
+                <span class="point">.</span>
+                <span id="year">0000</span>
+                <span id="day" class="day">monday</span>
+              </div>
+            </div>
+            <div class="right-video">
+              <span class="main-text right">HEUER</span>
+              <video
+                src="https://www.tagheuer.com/assets/videos/2022/LP/Themes/Universe/Ambassadors/TAGHeuer_LP_WiHajun_s4aJnirg.mp4"
+                frameborder="0" muted autoplay loop width="800px" height="450px"></video>
+            </div>
+          </div>
+        </div>
+        <!-- main-img-container -->
+
+        <div class="main-bottom">
+          <span>Tag Heuer Portfolio<br />Design by darby 2024</span>
+          <div class="main-scroll-down">
+            <p>SCROLL<br />SLOW DOWN</p>
+            <p class="down"><i class="fas fa-chevron-down"></i></p>
+          </div>
+        </div>
+        <!-- main-bottom -->
+      </div>
+      <!-- main-container -->
+    </section> <!-- 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 main -->
+
+    <section class="maison">
+      <div class="maison-main title-rotate">
+        <div class="maison-main-bg"></div>
+        <div class="container-box">
+          <div class="box">
+            <h2>Maison</h2>
+            <div class="p-box">
+              <p class="Technology">Technology</p><br>
+              <p class="History">History</p><br>
+              <p class="Ambassadors">Ambassadors</p><br>
+              <p class="Collaborations">Collaborations</p><br>
+            </div>
+            <div class="gear1 gear"><i class="fas fa-cog circle maisonIcon"></i></div>
+            <div class="gear2 gear"><i class="fas fa-cog circle maisonIcon"></i></div>
+          </div>
+        </div>
+      </div> <!-- 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 maison - main -->
+
+      <div class="title con-scale">
+        <h3>Technology</h3>
+        <h2>Technology</h2>
+      </div>
+      <div class="maison-tech">
+        <div class="container">
+          <div class="center">
+            <div class="items">
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw308c027c/images/savoir_faire/1.jpg" />
+                  <div class="hoverDesc">
+                    <h2>아이디어의 힘</h2>
+                    <p>스위스 라쇼드퐁에 위치한 태그호이어 본사 소속 디자인 팀에서는 미래를 위한 아방가르드하며 한 층 더 혁신적인 시계 디자인에 대해서 연구하고 있습니다.<br> 수많은
+                      드로잉의 과정을 거쳐 완성한 후에야 본격적인 디자인 작업이 시작됩니다.<br> 과거의 클래식한 디자인에서 영감을 얻어 시계의 다양한 요소 가운데 러그 등에 적용 되기도
+                      합니다.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw31f42384/images/savoir_faire/3.jpg" />
+                  <div class="hoverDesc">
+                    <h2>아이디어의 힘</h2>
+                    <p>여러 개의 스케치를 그린 후, 디자이너의 아이디어는 최첨단 컴퓨터 이용 설계 시스템(CAD)을 사용하여 그 형태를 갖추게 됩니다.<br> 다이얼과 베젤, 다양한 케이스
+                      부품을 포함한 디자인의 각 요소는 오랜 시간의 숙고 끝에 얻어진 것입니다. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwbc32b68e/images/savoir_faire/5.jpg" />
+                  <div class="hoverDesc">
+                    <h2>탁월한 견고함과 내구성</h2>
+                    <p>케이스는 시계에서 가장 중요한 역할을 담당합니다.<br> 먼지와 습기뿐만 아니라 유해한 충격으로부터 다이얼과 무브먼트를 보호해 줍니다. <br>태그호이어는 자체
+                      매뉴팩처에서 까다로운 기준에 맞추어 다양한 케이스를 제작합니다.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwc9f53254/images/savoir_faire/4.jpg" />
+                  <div class="hoverDesc">
+                    <h2>탁월한 견고함과 내구성</h2>
+                    <p>케이스는 메탈 소재를 사용해 제작됩니다.<br> 플랫 메탈을 스탬핑 장비에 넣습니다.<br> 40에서 80톤에 달하는 엄청난 압력을 금속판에 가하여 초기 단계의 케이스의
+                      형태를 만듭니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw37108833/images/savoir_faire/6.jpg" />
+                  <div class="hoverDesc">
+                    <h2>1080°C</h2>
+                    <p>1080°C의 온도에서 35분 동안 메탈 '템퍼링' 과정을 거쳐 외부 충격에도 쉽게 부서지지 않도록 시계 자체에 견고함을 더합니다.<br> 그 후 케이스를 다시 스탬핑하고
+                      템퍼링하는 과정을 약 10회에서 16회가량 반복합니다.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw2654a391/images/savoir_faire/8.jpg" />
+                  <div class="hoverDesc">
+                    <h2>기계 폴리싱</h2>
+                    <p>케이스의 스탬핑 과정이 완료되면, 케이스 형태를 제련해야 합니다.<br> 컴퓨터 수치 제어(CNC) 장비는 케이스 제작을 위해 프로그래밍된 여러 도구가 탑재되어 케이스의
+                      윤곽을 원하는 형태로 연마합니다.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwcd15c016/images/savoir_faire/9.png" />
+                  <div class="hoverDesc">
+                    <h2>수작업</h2>
+                    <p>케이스가 엄격한 기준을 달성하면, 이제 폴리싱 작업을 거치게 됩니다.<br> 태그호이어 제품 제작의 다른 수많은 과정과 마찬가지로 태그호이어는 자동 폴리싱 방식을
+                      활용합니다.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw1a8e6061/images/savoir_faire/15.jpg" />
+                  <div class="hoverDesc">
+                    <h2>탁월한 퍼포먼스를<br> 위한 설계</h2>
+                    <p>'자제 제작' 무브먼트는 사각형 브래스 플레이트에서 시작되어, 이후 컴퓨터 수치 제어(CNC) 장비의 기법이 사용되는 제작 과정을 거칩니다.<br> 이 장비는 윤활유를
+                      사용하지 않아 환경에 덜 해롭습니다.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwb9c7ffe5/images/savoir_faire/16.jpg" />
+                  <div class="hoverDesc">
+                    <h2>탁월한 퍼포먼스를<br> 위한 설계</h2>
+                    <p>메인 플레이트 제작에 사용된 동일한 기법이 '브릿지' 제작에도 사용됩니다.<br> 이 부품은 휠과 피니언, 피벗, 그리고 다른 소형 부품들이 제 자리에 있도록 합니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw823ca6ea/images/savoir_faire/17.png" />
+                  <div class="hoverDesc">
+                    <h2>시계가 처음<br> 고동치는 순간</h2>
+                    <p>그다음 레귤레이팅 기구를 시계에 추가하면 밸런스 휠이 진동하기 시작합니다.<br> 다양한 위치에서 무브먼트를 테스트하여 스위스의 탁월한 정확성을 갖추고 있는지 확인합니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwcda6fa4f/images/savoir_faire/25.png" />
+                  <div class="hoverDesc">
+                    <h2>시계가 처음<br> 고동치는 순간</h2>
+                    <p>시계의 심장이 탄생하여 태그호이어 타임피스의 케이스 내부에 탑재됩니다.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwa28cd721/images/savoir_faire/18.jpg" />
+                  <div class="hoverDesc">
+                    <h2>ALWAYS MATTER<br> OF PRECISION</h2>
+                    <p>The making of a watch is a matter of precision. Much time has already been expended making each
+                      component with meticulous care. In order to ensure the utmost quality, all TAG Heuer watches are
+                      assembled in a carefully controlled environment where the air is filtered.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwe6fe851d/images/SavoirFaire/5-Assembly_2.jpg" />
+                  <div class="hoverDesc">
+                    <h2>워치메이킹 전문성</h2>
+                    <p>무브먼트 상단 표면에 다이얼 막대를 밀어 넣어 다이얼과 무브먼트를 하나로 결합합니다.<br> 무브먼트 피벗에 핸즈를 배치하기 위해 최첨단 특수 자동화 장비가 사용됩니다.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwbf45005d/images/SavoirFaire/5-Test_4.jpg" />
+                  <div class="hoverDesc">
+                    <h2>메탈 브레이슬릿</h2>
+                    <p>링크 모델은 아이코닉한 통합 브레이슬릿으로 잘 알려져 있습니다. 브레이슬릿은 견고한지 확인을 거칩니다.<br> '셰이커 기계'는 링크에 연결된 핀이 제대로 고정되어
+                      브레이슬릿의 탁월한 유연성이 유지되고 있는지 확인하기 위해 브레이슬릿을 진동시키는 장비입니다.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw35205126/images/savoir_faire/20.jpg" />
+                  <div class="hoverDesc">
+                    <h2>최종 조정</h2>
+                    <p>케이스가 조립 부서에 도착하면, 정밀한 검사 과정을 거칩니다.<br> 케이싱 링과 함께 다이얼과 무브먼트를 케이스 내부에 장착합니다.<br> 그다음 크라운과 스템을
+                      삽입하고 무브먼트를 스크류로 고정합니다.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw0f9f0ebd/images/savoir_faire/21.png" />
+                  <div class="hoverDesc">
+                    <h2>크로노그래프</h2>
+                    <p>고문실 안에서는 강도 높은 수많은 테스트가 진행되어 최고의 품질을 보장합니다.<br> 테스트 시계는 20,000회 시작/정지 푸쉬버튼을 누르고, 10,000회 리셋
+                      푸쉬버튼을 누르는 동작을 시뮬레이션하는 기계 안으로 위치하게 됩니다.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwc7e10887/images/savoir_faire/22.jpg" />
+                  <div class="hoverDesc">
+                    <h2>방수</h2>
+                    <p>스포츠 워치에 대한 태그호이어의 노하우는 특별합니다.<br> 특정 깊이에서 시계의 방수 기능을 측정하기 위해 가압 용기의 물속에 시계를 넣고 정해진 압력에
+                      노출합니다.<br> 헬륨을 사용한 추가 테스트를 통해 물의 침투 위험 여부를 확인합니다.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="card">
+                  <img class="image"
+                    src="https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwb85406b1/images/savoir_faire/23.png" />
+                  <div class="hoverDesc">
+                    <h2>충돌저항성</h2>
+                    <p>'낙하 테스트'는 1000~5000G의 힘으로 시계를 지면에 떨어뜨리는 테스트 입니다.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 maison - tech -->
+
+      <div class="title" style="height: 50vh;">
+        <h3>History</h3>
+        <h2>History</h2>
+      </div>
+      <div class="maison-history-box">
+        <div class="maison-history">
+          <div class="history history1">
+            <div class="wrap">
+              <img src="./img/history1.avif" alt="history-img">
+              <p>푸쉬버튼의 작동으로 크로노그래프의 즉각적인 시작과 정지를 권장하는 부품인 "오실레이팅 피니언"에 대한 특허 취득</p>
+            </div>
+          </div>
+          <div class="history history2">
+            <div class="wrap">
+              <img src="./img/history2.jpg" alt="history-img">
+              <p>자동차와 비행기를 이용한 여행이 점차 늘어가며 호이어는 차세대 자동차 대시보드에 설치할 수 있는 장치를 디자인</p>
+            </div>
+          </div>
+          <div class="history history3">
+            <div class="wrap">
+              <img src="./img/history.webp" alt="history-img">
+              <p>호이어는 "오타비아"를 선보였으며, 이 이름은 앞으로 수십 년 동안 브랜드 카탈로그에 등장했습니다.</p>
+            </div>
+          </div>
+          <div class="history history4">
+            <div class="wrap">
+              <img src="./img/history4.jpg" alt="history-img">
+              <p>4세대 호이어, 잭 호이어가 공식적으로 4세대 회장으로 에드워드 호이어 & 컴퍼니에 합류</p>
+            </div>
+          </div>
+          <div class="history history5">
+            <div class="wrap">
+              <img src="./img/history5.jfif" alt="history-img">
+              <p>칼리버 11 : 호이어가 주도한 합작 투자로 전 세계 시장에 최초의 오토매틱 크로노 그래프인 칼리버 11 무브먼트 등장</p>
+            </div>
+          </div>
+          <div class="history history6">
+            <div class="wrap">
+              <img src="./img/history6.jpg" alt="history-img">
+              <p>프랑스 최고의 럭셔리 그룹, LVMH 모엣 헤네시 루이비통이 인수</p>
+            </div>
+          </div>
+          <div class="history history7">
+            <div class="wrap">
+              <img src="./img/history7.avif" alt="history-img">
+              <p>최초의 인하우스 크로노그래프 무브먼트, 칼리버1887 출시<br>
+                호이어02 자체 개발 인하우스 무브먼트, 수직 클러치와 컬럼휠 방식의 크로노그래프 무브먼트 28800(4Hz), 75~80시간 파워 리저브, 크로노미터급 성능</p>
+            </div>
+          </div>
+          <div class="history history8">
+            <div class="wrap">
+              <img src="./img/history8.webp" alt="history-img">
+              <p>최초의 스위스 럭셔리 스마트 워치인 커넥티드 워치 출시</p>
+            </div>
+          </div>
+        </div>
+        <div class="maison-history-year">
+          <ul>
+            <li>1860 - 1887</li>
+            <li>1887 - 1933</li>
+            <li>1933 - 1958</li>
+            <li>1958 - 1969</li>
+            <li>1969 - 1985</li>
+            <li>1985 - 2004</li>
+            <li>2004 - 2015</li>
+            <li>2015 - 2024</li>
+          </ul>
+        </div>
+      </div> <!-- 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 maison - history -->
+
+      <div class="title" style="height: 50vh;">
+        <h3>Ambassadors</h3>
+        <h2>Ambassadors</h2>
+      </div>
+      <div class="maison-ambassadors">
+        <div class="content">
+          <div class="gallery">
+            <figure class="gallery__item horizontal panel">
+              <div class="gallery__item-img">
+                <div class="gallery__item-imginner"
+                  style="background-image: url(
+          https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwb7c05a24/images/Landing/Monaco/Monaco%20Skeleton/tag-heuer-ambassador-monaco-wi-ha-jun.png)"
+                  data-scroll="-0.8"></div>
+              </div>
+              <figcaption class="gallery__item-caption">
+                <h2 class="gallery__item-title" data-scroll="2">위하준</h2>
+                <span class="gallery__item-number" data-scroll="1.5">01</span>
+                <p class="gallery__item-tags">
+                  <span>“특한 존재로 거듭나다”. 위하준이라는 예명에 깃든 의미는 액션을 및 짜릿한 발전의 순간을 향한 태그호이어의 열정을 연상시킵니다. 탁월함을 지향하는 위하준은 눈앞에 있는
+                    어떤 도전에도 맞설 준비가 되어 있습니다.</span>
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="gallery__item horizontal panel">
+              <div class="gallery__item-img">
+                <div class="gallery__item-imginner"
+                  style="background-image: url(https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw12dbc5b0/images/1-Partnership-REVAMP/ambassadors/liu-haoran/tag-heuer-ambassador-liu-haoran-in-a-car.jpg)"
+                  data-scroll="-0.8"></div>
+              </div>
+              <figcaption class="gallery__item-caption">
+                <h2 class="gallery__item-title" data-scroll="1">리우 하오란</h2>
+                <span class="gallery__item-number" data-scroll="1.5">02</span>
+                <p class="gallery__item-tags">
+                  <span>“태그호이어는 풍부한 워치메이킹 유산을 보유한 브랜드로, 끊임없이 혁신을 주도하고 있습니다. 모터스포츠와 인연이 있다는 점 또한 제게 커다란 매력을 주는
+                    요소입니다.”</span>
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="gallery__item">
+              <div class="gallery__item-img">
+                <div class="gallery__item-imginner"
+                  style="background-image: url(https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw3718e98a/images/1-Partnership-REVAMP/ambassadors/RYAN_GOSLING/0-PC/tag-heuer-Ryan-Gosling.jpg)"
+                  data-scroll="-0.8"></div>
+              </div>
+              <figcaption class="gallery__item-caption">
+                <h2 class="gallery__item-title" data-scroll="1">라이언 고슬링</h2>
+                <span class="gallery__item-number" data-scroll="1.5">03</span>
+                <p class="gallery__item-tags">
+                  <span>"저는 시간을 당연하게 생각하지 않는 법을 배웠습니다. 매 순간 시간이 흘러가고 있다는 점이 저를 움직입니다."</span>
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="gallery__item horizontal panel">
+              <div class="gallery__item-img">
+                <div class="gallery__item-imginner" style="background-image: url(https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw3000d2bb/images/1-Partnership-REVAMP/ambassadors/4-Patrick-Dempsey/0-PC/TH_Patrick-main.jpg
+          )" data-scroll="-0.8"></div>
+              </div>
+              <figcaption class="gallery__item-caption">
+                <h2 class="gallery__item-title" data-scroll="1">패트릭 뎀시</h2>
+                <span class="gallery__item-number" data-scroll="1.5">04</span>
+                <p class="gallery__item-tags">
+                  <span>"차에 올라타기 전에는 늘 조급해져요. 무대 위에 첫발을 내디딜 때와 마찬가지죠."</span>
+                </p>
+              </figcaption>
+            </figure>
+
+            <div class="gallery__text gallery__item"><span class="gallery__text-inner" data-scroll="-1.5">Movie Star</span>
+            </div>
+
+            <figure class="gallery__item">
+              <div class="gallery__item-img">
+                <div class="gallery__item-imginner"
+                  style="background-image: url(https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dwfe61182b/images/1-Partnership-REVAMP/ambassadors/alexandra-daddario/1-USP/TH_alexandra-daddario-usp2.jpg)"
+                  data-scroll="-0.8"></div>
+              </div>
+              <figcaption class="gallery__item-caption">
+                <h2 class="gallery__item-title" data-scroll="1">알렉산드라 다다리오</h2>
+                <span class="gallery__item-number" data-scroll="1.5">05</span>
+                <p class="gallery__item-tags">
+                  <span>매력적인 역할로 찬사를 받는 알렉산드라 다다리오가 태그호이어와 함께 독특한 카리스마와 모던한 분위기를 선보입니다.</span>
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="gallery__item">
+              <div class="gallery__item-img">
+                <div class="gallery__item-imginner"
+                  style="background-image: url(https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw2cfed781/images/1-Partnership-REVAMP/ambassadors/Felix-Auger-Aliassime/felix-auger-aliassime-tag-heuer-ambassador-tennis-player-image-centered.png)"
+                  data-scroll="-0.8"></div>
+              </div>
+              <figcaption class="gallery__item-caption">
+                <h2 class="gallery__item-title" data-scroll="1">펠릭스 오거 알리아심</h2>
+                <span class="gallery__item-number" data-scroll="1.5">06</span>
+                <p class="gallery__item-tags">
+                  <span>강력한 서브로 다채로운 경기를 펼쳐 보이는 펠릭스 오거 알리아심 앞에서 이미 몇몇의 세계 최정상 선수들이 무릎을 꿇었습니다. 토너먼트에서 여러 번 우승 경력을 쌓으며 탁월한
+                    선수로 자리매김한 그가 바로 완벽한 태그호이어 앰배서더입니다.</span>
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="gallery__item">
+              <div class="gallery__item-img">
+                <div class="gallery__item-imginner"
+                  style="background-image: url(https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw478c4e38/images/1-Partnership-REVAMP/ambassadors/5-Sydney-Mclaughlin/0-PC/TH_Sydney_Main.jpg)"
+                  data-scroll="-0.8"></div>
+              </div>
+              <figcaption class="gallery__item-caption">
+                <h2 class="gallery__item-title" data-scroll="1">시드니 맥로린 레브로니</h2>
+                <span class="gallery__item-number" data-scroll="1.5">07</span>
+                <p class="gallery__item-tags">
+                  <span>“뛰어난 퍼포먼스와 강한 정신력, 그리고 “어려움에 굴복하지 마라(Don’t crack under pressure)” 정신에 대한 열정을 공유한다는 점에서 자연스럽게 진정성
+                    어린 파트너십이 성사되었습니다.”</span>
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="gallery__item">
+              <div class="gallery__item-img">
+                <div class="gallery__item-imginner"
+                  style="background-image: url(https://www.tagheuer.com/on/demandware.static/-/Library-Sites-TagHeuer-Shared/default/dw4eb72ec3/images/1-Partnership-REVAMP/ambassadors/1-Kai-Lenny/1-USP/TH_USP2.jpg)"
+                  data-scroll="-0.8"></div>
+              </div>
+              <figcaption class="gallery__item-caption">
+                <h2 class="gallery__item-title" data-scroll="1">카이 레니</h2>
+                <span class="gallery__item-number" data-scroll="1.5">08</span>
+                <p class="gallery__item-tags">
+                  <span>하와이어로 "대양"을 의미하는 "카이"라는 이름과 함께 물속에서 누빌 운명을 지니고 태어났습니다.</span>
+                </p>
+              </figcaption>
+            </figure>
+
+            <div class="gallery__text gallery__item"><span class="gallery__text-inner" data-scroll="-1">Sports</span>
+            </div>
+          </div>
+        </div>
+      </div> <!-- 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 maison- ambassadors -->
+
+      <div class="title" style="text-align: center; height: 50vh;">
+        <h3>Porshe <br>Tag Heuer</h3>
+        <h2>Porshe <br>Tag Heuer</h2>
+      </div>
+      <div class="title" style="text-align: center; height: 50vh;">
+        <h3>To be <br>Continue</h3>
+        <h2>To be <br>Continue</h2>
+      </div>
+      
+    </section>
+
+    <section class="text-carousel">
+      <div class="part-1">
+        <div class="strip strip-r">
+          <h1>
+            tag <span>Heuer</span>tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag
+            <span>Heuer</span>
+            ONE <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span>
+          </h1>
+        </div>
+        <div class="strip strip-l">
+          <h1>
+            tag <span>Heuer</span>tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag
+            <span>Heuer</span>
+            ONE <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span>
+          </h1>
+        </div>
+        <div class="strip strip-r">
+          <h1>
+            tag <span>Heuer</span>tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag
+            <span>Heuer</span>
+            ONE <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span>
+          </h1>
+        </div>
+        <div class="strip strip-l">
+          <h1>
+            tag <span>Heuer</span>tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag
+            <span>Heuer</span>
+            ONE <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span>
+          </h1>
+        </div>
+        <div class="strip strip-r">
+          <h1>
+            tag <span>Heuer</span>tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag
+            <span>Heuer</span>
+            ONE <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span> tag <span>Heuer</span> tag
+            <span>Heuer</span>
+          </h1>
+        </div>
+      </div>
+    </section> <!-- 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 text-carousel -->
+
+    <section class="watches-list">
+      <div class="video-container">
+        <video
+          src="https://www.tagheuer.com/assets/videos/2022/Collections/TAG_Heuer_Formula_1/TAGHeuer_popin_formula1_01.pc_evS2pWfm.mp4"
+          muted autoplay loop></video>
+        <div class="video-cover"></div>
+      </div>
+
+      <div class="watch-list">
+        <ul>
+          <li>
+            <div class="index"><span>01</span></div>
+            <div class="release-year"><span>1933</span></div>
+            <div class="watch-name">
+              <h2 data-value="AUTAVIA">AUTAVIA</h2>
+            </div>
+            <div class="genere">
+              <span>Legendary collection born in 1962 for free adventurers.</span>
+            </div>
+            <div class="hover-img">
+              <img src="./img/watch-autavia.webp" alt="autavia" class="img-fluid" />
+            </div>
+          </li>
+          <li>
+            <div class="index"><span>02</span></div>
+            <div class="release-year"><span>1971</span></div>
+            <div class="watch-name">
+              <h2 data-value="FORMULA">FORMULA</h2>
+            </div>
+            <div class="genere">
+              <span>Inspired by motor racing, the Tag Heuer Formula 1 collection
+                is the perfect timepiece for those who enjoy a dynamic and
+                active lifestyle.</span>
+            </div>
+            <div class="hover-img">
+              <img src="./img/watch-formula.jpg" alt="autavia" class="img-fluid" />
+            </div>
+          </li>
+          <li>
+            <div class="index"><span>03</span></div>
+            <div class="release-year"><span>2000</span></div>
+            <div class="watch-name">
+              <h2 data-value="AQUARACER">AQUARACER</h2>
+            </div>
+            <div class="genere">
+              <span>Professional Sports Watch, Tag Heuer Aqua Racer Collection
+                for Outstanding Performance in Any Situation.</span>
+            </div>
+            <div class="hover-img">
+              <img src="./img/watch-aqua.webp" alt="autavia" class="img-fluid" />
+            </div>
+          </li>
+          <li>
+            <div class="index"><span>04</span></div>
+            <div class="release-year"><span>1963</span></div>
+            <div class="watch-name">
+              <h2 data-value="CARRERA">CARRERA</h2>
+            </div>
+            <div class="genere">
+              <span>Iconic sports watch designed for professional drivers and
+                sports car lovers.</span>
+            </div>
+            <div class="hover-img">
+              <img src="./img/watch-carrera.avif" alt="autavia" class="img-fluid" />
+            </div>
+          </li>
+          <li>
+            <div class="index"><span>05</span></div>
+            <div class="release-year"><span>1963</span></div>
+            <div class="watch-name">
+              <h2 data-value="MONACO">MONACO</h2>
+            </div>
+            <div class="genere">
+              <span>Iconic and legendary timepiece featuring Tag Heuer's Swiss
+                avant-garde heritage and know-how.</span>
+            </div>
+            <div class="hover-img">
+              <img src="./img/watch-monaco.jpg" alt="autavia" class="img-fluid" />
+            </div>
+          </li>
+          <li>
+            <div class="index"><span>06</span></div>
+            <div class="release-year"><span>1987</span></div>
+            <div class="watch-name">
+              <h2 data-value="LINK">LINK</h2>
+            </div>
+            <div class="genere">
+              <span>Iconic S-type design with sporty elegance.</span>
+            </div>
+            <div class="hover-img">
+              <img src="./img/watch-autavia.webp" alt="autavia" class="img-fluid" />
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section> <!-- 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 watches-list -->
+
+    <section class="watches">
+      <div class="watches-text">
+        <div class="container">
+          <div class="glitch" data-text="WATCHES">WATCHES</div>
+          <div class="glow">WATCHES</div>
+          <p class="subtitle">TAG HEUER COLLECTIONS</p>
+        </div>
+        <div class="scanlines"></div>
+      </div>
+      <div class="watchesBox">
+        <ul>
+          <li>
+            <img src="./img/autavia2.avif" alt="Autavia" />
+            <div class="imgBox img1">
+              <h2 class="title">
+                AUTAVIA
+                <span> SINCE <span style="font-size: 30px"> 1933</span></span>
+              </h2>
+            </div>
+            <div class="textBox">
+              <p class="title">진정한 개척자의 정신</p>
+              <p class="text">
+                역사적인 태그호이어 대시보드 타이머에서 영감을 받은 오타비아
+                모델은 그 어느 때보다도 아방가르드하면서도 정교한 매력을
+                선사하며 독특한 크로노그래프 푸쉬버튼과 커다란 크라운으로
+                단숨에 시선을 사로잡습니다.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <img src="./img/formula1.png" alt="formula" />
+            <div class="imgBox img2">
+              <h2 class="title">
+                FORMULA
+                <span> SINCE <span style="font-size: 30px"> 1971</span></span>
+              </h2>
+            </div>
+            <div class="textBox">
+              <p class="title">
+                테스트를 통과한 강한 내구성,<br />
+                쿼츠 또는 오토매틱, 변하지 않는 세련된 디자인
+              </p>
+              <p class="text">
+                스피드에 최적화된, 포뮬러 1 전설들이 착용했던 이 캐주얼 스포츠
+                워치는 드라이버 익스텐션을 장착한 메탈 브레이슬릿으로 레이싱
+                수트 위에도 편리하게 착용할 수 있습니다.<br />
+                60여 가지에 이르는 품질 검증을 거친 포뮬러 1은 외부 충격에
+                매우 강해 스피드와 모험을 즐기는 사람을 위한 완벽한
+                파트너입니다.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <img src="./img/aqua3.avif" alt="Aquqa" />
+            <div class="imgBox img3">
+              <h2 class="title">
+                AQUARACER
+                <span> SINCE <span style="font-size: 30px"> 2000</span></span>
+              </h2>
+            </div>
+            <div class="textBox">
+              <p class="title">
+                어떠한 모험과 도전 상황에서도<br />정확하게 측정되는 시간
+              </p>
+              <p class="text">
+                아쿠아레이서는 라이더 탭을 장착한 12면 회전 베젤을 통해 손쉽게
+                회전 가능하며 편리하게 시간을 확인할 수 있습니다.<br />
+                또한 단방향 회전 베젤을 통해 안전하게 잠수 시간을 측정할 수
+                있습니다.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <img src="./img/carrera2.avif" alt="Carrera" />
+            <div class="imgBox img4">
+              <h2 class="title">
+                CARRERA
+                <span> SINCE <span style="font-size: 30px"> 1963</span></span>
+              </h2>
+            </div>
+            <div class="textBox">
+              <p class="title">
+                테스트를 통과한 강한 내구성,<br />
+                쿼츠 또는 오토매틱, 변하지 않는 세련된 디자인
+              </p>
+              <p class="text">
+                스피드에 최적화된, 포뮬러 1 전설들이 착용했던 이 캐주얼 스포츠
+                워치는 드라이버 익스텐션을 장착한 메탈 브레이슬릿으로 레이싱
+                수트 위에도 편리하게 착용할 수 있습니다.<br />
+                60여 가지에 이르는 품질 검증을 거친 포뮬러 1은 외부 충격에
+                매우 강해 스피드와 모험을 즐기는 사람을 위한 완벽한
+                파트너입니다.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <img src="./img/monaco1.png" alt="monaco" />
+            <div class="imgBox img5">
+              <h2 class="title">
+                MONACO
+                <span> SINCE <span style="font-size: 30px"> 1963</span></span>
+              </h2>
+            </div>
+            <div class="textBox">
+              <p class="title">
+                변치않는 세련된 디자인을 자랑하는<br />
+                태그호이어 모나코
+              </p>
+              <p class="text">
+                태그호이어 모나코는 아이코닉한 사각형 케이스와 스크래치 방지
+                처리된 사파이어 크리스탈 글래스로 고유한 디자인을
+                자랑합니다.<br />
+                오리지널 모델을 재현한 모나코 칼리버 11 에디션과 인하우스
+                무브먼트는 브랜드의 혁신적인 DNA를 완벽하게 나타내고 있습니다.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <img src="./img/link1.avif" alt="link" />
+            <div class="imgBox img6">
+              <h2 class="title">
+                LINK
+                <span> SINCE <span style="font-size: 30px"> 1987</span></span>
+              </h2>
+            </div>
+            <div class="textBox">
+              <p class="title">
+                아름다운 외관은 물론,<br />
+                완벽한 착용감을 선사하는 브레이슬릿 디자인
+              </p>
+              <p class="text">
+                모던함과 럭셔리한 매력을 동시에 선보이는 S형 브레이슬릿은
+                블러싱 및 폴리싱 처리되어 광택을 오래 유지할 수 있습니다.
+                <br />
+                섬세한 마감 기법으로 완성된 링크 컬렉션이 가진 우아함을
+                느껴보세요.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section> <!-- 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 watches -->
+
+    <section class="tourbillon" id="tourbillon1">
+      <div class="tourbillon-text">
+        <div id="hackerLightning" class="hackerLightning" onclick="animateBolts()"></div>
+      </div>
+      <img src="./img/circle.svg" alt="circle" class="circle">
+      <div class="container">
+        <div class="rect">
+          <div class="rect-inner">
+            <video
+              src="https://www.tagheuer.com/assets/videos/2022/PDP/TAG_Heuer_Carrera/TAGHeuer_product_CAR5A5Z.FC6377_carrera_calibre_heuer_02T_QI9p7SWq.mp4"
+              frameborder="0" muted autoplay loop width="1050px" height="500px"></video>
+          </div>
+        </div>
+      </div>
+      <iframe src='https://my.spline.design/untitled-0b51b30a93a64086c5a95aac37d03526/' frameborder='0' width='100%'
+        height='100%'></iframe>
+    </section> <!-- 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 tourbillon -->
+
+    <section class="tourbillon-detail">
+      <div class="canvas-cont">
+        <canvas id="canvas3d"></canvas>
+      </div>
+      <div class="detail-wrap">
+        <div class="left-sticky">
+          <div class="left-sticky-top-box box-border">
+            <div class="left-sticky-box-title box-border">
+              <span>Detail Image</span>
+            </div>
+            <div class="left-sticky-box-img box-border">
+              <div><img src="./img/tourbillon.jpg" alt="tourbillon"></div>
+              <div><img src="./img/tourbillon2.jpg" alt="tourbillon"></div>
+              <div><img src="./img/tourbillon3.jpg" alt="tourbillon"></div>
+              <div><img src="./img/tourbillon4.jpg" alt="tourbillon"></div>
+              <div><img src="./img/tourbillon5.jpg" alt="tourbillon"></div>
+            </div>
+          </div>
+          <div class=" left-sticky-bottom-box">
+            <div class="left-sticky-box-title box-border">
+              <span>Strap</span>
+            </div>
+            <div class="left-sticky-box-img">
+              <div>
+                <img src="./img/tourbillon-strap.png" alt="tourbillon-strap">
+              </div>
+              <div>
+                <img src="./img/tourbillon-strap2.png" alt="tourbillon-strap">
+              </div>
+              <div>
+                <img src="./img/tourbillon-strap3.png" alt="tourbillon-strap">
+              </div>
+            </div>
+          </div>
+        </div> <!-- left-sticky ✨✨✨✨✨✨✨✨✨ -->
+
+        <div class="right-detail">
+          <div class="right-line"></div>
+
+          <div class="tourbillon-detil-page1 tourbillon-detil-page">
+            <div class="tourbillon-info">
+              <p class="desc">
+                태그호이어 까레라 투르비옹 크로노그래프의 로즈 골드 에디션은<br>
+                <b>블랙 스켈레톤 다이얼과 티타늄 케이스 및 세라믹 베젤과 로즈 골드 러그</b>로 구성되어 있습니다.<br>
+                블랙 러버에 정교하게 스티칭된 <b>매트 블랙 앨리게이터 가죽 소재</b>가 돋보이는 스트랩을 갖추고 있습니다.
+              </p>
+              <div class="tourbillon-info-ref">
+                <p class="information box-border info-tit">INFOMAION<i class="fas fa-angle-down info-titi"></i></p>
+                <p class="ref box-border">CAR5A5U.FC6377</p>
+                <p class="name box-border">티타늄 로즈 골드</p>
+                <p class="price box-border">&#8361; 39.730.000</p>
+                <button>BUY IT</button>
+              </div>
+            </div>
+            <div class="tourbillon-detail-info">
+              <h2 class="info-tit">CASE</h2>
+              <ul class="info-desc">
+                <li>
+                  <span>Size</span>
+                  <span>45mm</span>
+                </li>
+                <li>
+                  <span>Case</span>
+                  <span>PVD</span>
+                </li>
+                <li>
+                  <span>Lug length</span>
+                  <span>22mm</span>
+                </li>
+                <li>
+                  <span>Case Back</span>
+                  <span>Sapphire</span>
+                </li>
+                <li>
+                  <span>Thickness</span>
+                  <span>16.23mm</span>
+                </li>
+                <li>
+                  <span>Waterproof</span>
+                  <span>100m</span>
+                </li>
+                <li>
+                  <span>Bezel</span>
+                  <span>Titanium & Ceramic</span>
+                </li>
+              </ul>
+              <h2 class="info-tit">STRAP / BRACELET</h2>
+              <ul class="info-desc">
+                <li>
+                  <span>Color</span>
+                  <span>Black</span>
+                </li>
+                <li>
+                  <span>Buckle</span>
+                  <span>Folding buckle sandblasted grade 2 titanium</span>
+                </li>
+              </ul>
+              <h2 class="info-tit">DIAL</h2>
+              <ul class="info-desc">
+                <li>
+                  <span>Finish</span>
+                  <span>Glossy finish</span>
+                </li>
+                <li>
+                  <span>Color</span>
+                  <span>Black</span>
+                </li>
+                <li>
+                  <span>Index</span>
+                  <span>OK</span>
+                </li>
+              </ul>
+            </div>
+          </div> <!-- tourbillon-detil-page1 -->
+
+          <div class="tourbillon-detil-page2 tourbillon-detil-page">
+            <div class="tourbillon-info">
+              <div class="desc">
+                <strong style="font-size: 30px; line-height: -10px; color:#000;">뛰어난 예술을 위한 최상의 가치</strong><br><br>
+                <p>3시와 9시 방향에는 로즈 골드 톤의 <b>크로노그래프 미닛 카운터</b>와 아워 카운터가 더해져 다이내믹함을 선사합니다. <br>
+                  <b>플라잉 투르비옹 케이지</b>는 6시 방향에 위치해 있습니다. <br>
+                  핸즈는 <b>수퍼루미노바®</b> 처리되었으며 배턴 인덱스처럼 폴리싱 및 새틴 마감 처리되었습니다.</p>
+              </div>
+              <div class="img-box">
+                <p>IMAGE</p>
+                <img src="./img/detailimg1.webp" alt="detail-img1">
+              </div>
+            </div>
+
+            <div class="tourbillon-detail-info">
+              <div class="tit">
+                <h2 class="info-tit">칼리버 호이어 02 T COSC 의<br>
+                  놀라운 최첨단 기술</h2>
+                <p class="info-desc box-border" style="text-align: center; padding-block: 5px;">컬럼 휠, 다이얼, 투르비옹 브릿지에 가미된
+                  고급스러운 블랙 컬러는 타임피스에 세련된 멋을 배가 시킵니다.</p>
+              </div>
+              <div class="info-desc-box">
+                <ul class="info-desc">
+                  <li>
+                    <span>Caliber</span>
+                    <span>Caliber Heuer 02T COSC</span>
+                  </li>
+                  <li>
+                    <span>Movement</span>
+                    <span>Automatic</span>
+                  </li>
+                  <li>
+                    <span>In-house Movement</span>
+                    <span>Y</span>
+                  </li>
+                  <li>
+                    <span>Power Reserve</span>
+                    <span>65H</span>
+                  </li>
+                  <li>
+                    <span>Vibration</span>
+                    <span>28'800 (4 Hz)</span>
+                  </li>
+                  <li>
+                    <span>Function</span>
+                    <span style="text-align: right;">Hours, minutes, chronograph: 1/4 second, <br>
+                      30 minute counter, 12 hour counter, <br>
+                      tourbillon 1 minute</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div> <!-- tourbillon-detil-page2 -->
+
+          <div class="tourbillon-detil-page3 tourbillon-detil-page">
+            <div class="desc-box desc-box1">
+              <div class="title-box box-border">
+                <p class="info-tit" style="padding: 10px;">정확한 시간 측정을 위한 섬세한 크로노그래프
+                  <i class="fas fa-angle-down" style="margin-left: 20px;"></i></p>
+              </div>
+              <p class="info-desc" style="padding: 10px;">
+                크로노그래프는 보고, 듣고, 느낄 수 있는 진정한 스타일을 통해 무브먼트를 선보입니다.<br>
+                크로노그래프는 레이싱 카 드라이버의 속도와 대담함을 담고 있을 뿐 아니라
+                실용성과 아름다움을 두루 갖춰 이목을 끌어 냅니다.
+              </p>
+            </div>
+            <div class="desc-box desc-box2 " style="width: 500px; margin-top: 300px;">
+              <div class="title-box box-border">
+                <p class="info-tit" style="padding: 10px;">If you press the key,<br>
+                  you can use the chronograph function
+                  <i class="fas fa-angle-down" style="margin-left: 20px;"></i></p>
+              </div>
+              <p class="info-desc" style="padding: 10px;">
+                Key Press&#34;0&#34;Chronograph Start<br>
+                Key Press&#34;1&#34;Chronograph Reset
+              </p>
+            </div>
+          </div> <!-- tourbillon-detil-page3 -->
+
+          <div class="tourbillon-detil-page4 tourbillon-detil-page">
+            <div class="wrap">
+              <div class="video-box">
+                <p class="info-tit box-border" style="text-align: center; padding: 20px;">Simulation Video</p>
+                <video src="./img/diamond.mp4" muted loop autoplay></video>
+              </div>
+              <div class="desc-box">
+                <div class="title-box box-border">
+                  <p class="info-tit" style="padding: 10px;">Sapphire Crystal Glass</p>
+                </div>
+                <p class="info-desc" style="padding: 10px;">
+                  Sapphire is very strong and scratch-resistant,<br>
+                  making it the best choice for premium watches.<br>
+                  <br>
+                  Sapphire is more expensive than acryli100c and mineral glass, <br>
+                  but it has advantages due to scratch and scattering resistance.<br>
+                  <br>
+                  In addition to anti-scratch features, <br>
+                  sapphire watch glass can withstand cracks <br>
+                  and breaks better than mineral or acrylic glass.<br>
+                  <br>
+                  It is believed that only diamonds and other sapphires can scratch sapphires.<br>
+                  <br>
+                  In the watch industry,<br>
+                  it is common to use synthetic sapphires consisting of crystallized aluminum oxide.<br>
+                  <br>
+                  Synthetic sapphires are colorless,<br>
+                  but have the same physical properties as natural sapphires.<br>
+                  <br>
+                  However, sapphire crystals require delicate work when milling and cutting.
+                </p>
+              </div>
+            </div>
+          </div> <!-- tourbillon-detil-page4 -->
+        </div>
+      </div>
+      <div class="tourbillon-detil-page5 tourbillon-detil-page">
+        <div class="line"></div>
+        <div class="toggle-container">
+          <button class="button">
+            <div class="svg-animation"></div>
+          </button>
+        </div>
+        <div class="luminova-bg luminova-bg1">
+          <p class="luminova">Super Luminova®</p>
+        </div>
+        <div class="luminova-bg luminova-bg2">
+          <p class="luminova">Super Luminova®</p>
+        </div>
+        <br><br>
+        <p class="luminova-text">Rose Gold Edition Super Luminova® 태그호이어 까레라 투르비옹 크로노그래프의 로즈 골드 에디션의<br>핸즈와 배턴 인덱스에는 수퍼
+          루미노바® 처리가 되었으며 폴리싱 및 새틴 마감 처리가 되었습니다.</p>
+      </div> <!-- tourbillon-detil-page5 -->
+    </section> <!-- 🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟🌟 tourbillon - detail -->
+
+    <div class="maison-collaborations">
+      <canvas id="collaborationsCanvas" class="collaborationsCanvas"></canvas>
+      <img src="./img/porshe/u1.jpg" alt="">
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="sns">
+          <img src="./img/logo-footer.svg" alt="footer-logo">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-line"></i></a></li>
+          </ul>
+        </div>
+        <div class="store"></div>
+        <div class="footer-menu-box">
+          <div class="footer-collection">
+            <div class="footer-title-box">
+              <h3>컬렉션</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <ul>
+              <li><a href="#">태그호이어 까레라</a></li>
+              <li><a href="#">태그호이어 포뮬러 1</a></li>
+              <li><a href="#">태그호이어 아쿠아레이서</a></li>
+              <li><a href="#">태그호이어 모나코</a></li>
+              <li><a href="#">태그호이어 오타비아</a></li>
+              <li><a href="#">태그호이어 링크</a></li>
+            </ul>
+          </div>
+          <div class="footer-maison">
+            <div class="footer-title-box">
+              <h3>메종</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <ul>
+              <li><a href="#">태그호이어 기술력</a></li>
+              <li><a href="#">태그호이어 역사</a></li>
+              <li><a href="#">태그호이어 홍보대사</a></li>
+              <li><a href="#">태그호이어 컬렉션</a></li>
+            </ul>
+          </div>
+          <div class="footer-as">
+            <div class="footer-title-box">
+              <h3>지원</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <ul>
+              <li><a href="#">연락처</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">온라인 서비스</a></li>
+              <li><a href="#">품질보증</a></li>
+              <li><a href="#">온라인 배송 정책</a></li>
+              <li><a href="#">온라인 반품 정책</a></li>
+              <li><a href="#">정품 인증</a></li>
+            </ul>
+          </div>
+          <div class="footer-private">
+            <div class="footer-title-box">
+              <h3>이용약관</h3>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+            <ul>
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보 보호정책</a></li>
+              <li><a href="#">쿠키 설정</a></li>
+              <li><a href="#">이용 약관</a></li>
+              <li><a href="#">법적 고지</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+  <!-- gsap -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src='https://unpkg.com/gsap@3/dist/Draggable.min.js'></script>
+  <script src="./script.js"></script>
+
+  <!-- lenis -->
+  <script src="https://unpkg.com/lenis@1.1.2/dist/lenis.min.js"></script>
+
+  <!-- library - main (Img Slider Effect) -->
+  <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/TweenMax.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/imagesLoaded.pkgd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/pixi.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/libs/pixi-filters.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/hmongouachon/rgbKineticSlider/js/rgbKineticSlider.js"></script>
+
+  <!-- Tourbillon toggle -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.6/lottie.min.js'></script>
+
+  <!-- Tourbillon background / vanta -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/r123/three.min.js'></script>
+  <script src='https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.fog.min.js'></script>
+
+  <!-- slick -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+  <script src="./js/query.js"></script>
+
+  <!-- Watches Img Slider -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="./js/Imgslider.js"></script>
+
+  <!-- footer -->
+  <script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/SplitText3.min.js'></script>
+
+  <!-- js -->
+  <script type="module" src="./js/spline.js"></script>
+  <script type="module" src="./js/amberssarders.js"></script>
+  <script src="./js/collaborations.js"></script>
+  <script src="./js/scroll.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
