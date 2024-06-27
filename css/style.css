@@ -10,6 +10,9 @@ li {list-style: none;}
 button{background: inherit ; border:none; box-shadow:none; border-radius:0; padding:0; overflow:visible; cursor:pointer}
 section {width: 100%; height: 100vh;}
 
+
+
+
 /* scrollbar */
 body::-webkit-scrollbar {background-color: #FFFF;}
 body::-webkit-scrollbar-thumb {background-color:#363636;}
@@ -834,6 +837,11 @@ footer {background-color: #101010; width: 100%; padding-block: 5vh;}
 
 /* 💛 preload //////////////////////////////////////////// */
 /* //////////////////////////////////////////////////////////////////////////////////////// */
+
+/* preloading - not scroll */
+.loading {overflow: hidden;}
+
+
 .progress {
   position: fixed; left: 0; top: 0; z-index: 200; 
   height: 100%; width: 100%; 

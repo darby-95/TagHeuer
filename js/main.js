@@ -449,6 +449,16 @@ maisonHover()
 
 // 💛 preload
 
+//proloading not scroll
+function showLoadingScreen() {
+    document.body.classList.add('loading');
+    window.scrollTo(0, 0);
+}
+function hideLoadingScreen() {
+    document.body.classList.remove('loading');
+}
+showLoadingScreen();
+
 function preload(){
     let container=document.querySelector('#progress')
     let progressBar=document.querySelector('.progress-bar')
@@ -473,17 +483,25 @@ function preload(){
         progressText.innerHTML=Math.ceil(current)  + "%" // Math.ceil() : 소수점은 생략한다 
         // %에 비례하여 실행
     
-        if(current>99.9){
+        if (current > 99.9) {
             clearInterval(progressTimer)
-            container.classList.add('progress-complete') // : class 를 불러오는것이기 때문에 (.)❌
-            progressBar.style.width="100%";
-            gsap.to(container,{
-                duration:0.3,
-                yPercent : -100,
-                // 99.99%가 되면 y축으로 -100만큼 올라간다.
-                ease:"none",
+            container.classList.add("progress-complete")
+            progressBar.style.width = "100%";
+            gsap.to(container, {
+              duration: 0.5,
+              yPercent: -100,
+              ease: "none",
+              onUpdate: function scrollPrevent() {
+                showLoadingScreen();
+                sp = requestAnimationFrame(scrollPrevent) //2번줄
+                setTimeout(() => {
+                  cancelAnimationFrame(sp);
+                  hideLoadingScreen(); //6번줄
+                }, 10);
+              },
+        
             })
-        }
+          }
     }
 
 }
